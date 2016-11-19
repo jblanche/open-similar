@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "open-simliar",
+          "label": "Open Similar",
           "submenu": [
             {
               "label": "Open",

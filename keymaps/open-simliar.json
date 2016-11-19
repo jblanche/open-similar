@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-shift-e": "open-simliar:open"
+    "cmd-shift-e": "open-simliar:open"
   }
 }
