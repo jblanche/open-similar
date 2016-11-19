@@ -1,7 +1,6 @@
 'use babel';
 
 import { CompositeDisposable } from 'atom';
-import * as fs from 'fs';
 
 export default {
 
@@ -22,24 +21,21 @@ export default {
   },
 
   openSimilar() {
-    let extensions = ['.ts', '.txt'];
-    let editor, file, folderpath, filename;
+    let editor, file, filepath;
     editor = atom.workspace.getActivePaneItem()
     if (editor) {
       file = editor.buffer.file
       if (file) {
-        filename = file.path.substring(file.path.lastIndexOf('/') + 1).replace(/\.[^/.]+$/, '');
-        folderpath = file.path.substring(0, file.path.lastIndexOf('/'))
-        fs.readdir(folderpath, {}, (err, files) => {
-          files.forEach(file => {
-            atom.workspace.open(folderpath + '/' + file);
-          });
-        })
+        filePath = file.path
+
+        let nearbyTxt = filePath.replace(/\.[^/.]+$/, "txt");
+        console.log("nearbyTxt", nearbyTxt)
+        atom.workspace.open(nearbyTxt);
       }
     }
 
 
-    console.log("trying!");
+    console.log("trying!", filePath);
   }
 
 };
