@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Open Similar Files",
+        "command": "open-simliar:open"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "open-simliar",
+          "submenu": [
+            {
+              "label": "Open",
+              "command": "open-simliar:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
