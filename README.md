@@ -5,10 +5,10 @@ This package is very useful when working with Angular 2's file naming convention
 
 Example use folder structure:
 
--`componentFolder`
-|-`my.component.ts`
-|-`my.component.html`
-|-`my.component.css`
+`-componentFolder`  
+`|-my.component.ts`  
+`|-my.component.html`  
+`|-my.component.css`  
 
 If you're working on `my.component.html` and you want to quickly open `my.component.ts` and `my.component.css`, without digging through your filetree, this is the package for you.
 
