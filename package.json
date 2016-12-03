@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "open-simliar:open"
   },
-  "repository": "https://github.com/elliotaplant/open-simliar",
+  "repository": "https://github.com/elliotaplant/open-similar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
