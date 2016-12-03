@@ -3,7 +3,14 @@
   "main": "./lib/open-simliar",
   "version": "0.1.0",
   "description": "Open files in same directory with the same filename but different extensions",
-  "keywords": [],
+  "keywords": [
+    "Angular",
+    "Angular2",
+    "Angular 2",
+    "open",
+    "similar",
+    "file extension"
+  ],
   "activationCommands": {
     "atom-workspace": "open-simliar:open"
   },
