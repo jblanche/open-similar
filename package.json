@@ -1,7 +1,7 @@
 {
   "name": "open-simliar",
   "main": "./lib/open-simliar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Open files in same directory with the same filename but different extensions",
   "keywords": [
     "Angular",
