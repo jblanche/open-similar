@@ -2,7 +2,7 @@
   "name": "open-simliar",
   "main": "./lib/open-simliar",
   "version": "0.2.0",
-  "description": "Open files in same directory with the same filename but different extensions",
+  "description": "Open files with the same filename but different file extensions in the same directory with a simple hotkey.",
   "keywords": [
     "Angular",
     "Angular2",
