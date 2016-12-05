@@ -1,6 +1,6 @@
 {
-  "name": "open-simliar",
-  "main": "./lib/open-simliar",
+  "name": "open-similar",
+  "main": "./lib/open-similar",
   "version": "0.2.1",
   "description": "Open files with the same filename but different file extensions in the same directory with a simple hotkey.",
   "keywords": [
@@ -12,7 +12,7 @@
     "file extension"
   ],
   "activationCommands": {
-    "atom-workspace": "open-simliar:open"
+    "atom-workspace": "open-similar:open"
   },
   "repository": "https://github.com/elliotaplant/open-similar",
   "license": "MIT",
